@@ -1,0 +1,13 @@
+#include "Resource.h"
+
+IDR_MAINMENU MENU
+BEGIN
+    POPUP "Файл"
+    BEGIN
+        MENUITEM "Выход", ID_FILE_EXIT
+    END
+    POPUP "Справка"
+    BEGIN
+        MENUITEM "О программе", ID_HELP_ABOUT
+    END
+END 
